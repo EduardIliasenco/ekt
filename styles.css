@@ -1,0 +1,28 @@
+.block{
+    height: 550px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#about{
+    background-color: aqua;
+}
+
+a{
+    font-size: 34px;
+}
+
+*{
+    color: darkviolet;
+    /*box-sizing: border-box;*/
+}
+header > a{
+    padding: 4px 8px;
+}
+
+h1 ~ p{
+    text-align: justify;
+}
+h1 + p{
+    font-weight: 700;
+}
